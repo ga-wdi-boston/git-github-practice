@@ -74,7 +74,7 @@ Counting objects: <n>, done.
 Delta compression using up to <m> threads.
 Compressing objects: 100% (<o>/<o>), done.
 Writing objects: 100% (<p>/<p>), 1.58 KiB | <q> bytes/s, done.
-Total <p> (delta 1), reused 0 (delta 0)
+Total <p> (delta <r>), reused 0 (delta <s>)
 To git@github.com:<your github.com account>/wdi_1_git_quiz_script.git
    <old commit>..<commit>  master -> master
 $
