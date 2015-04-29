@@ -1,6 +1,6 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Git operations for quizes
+# Git operations for quizzes
 
 Follow the link provided to github.com
 
