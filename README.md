@@ -10,9 +10,62 @@ Follow the link provided to github.com
 - After the fork completes you should be on the forked repository page in your github.com account
 - On the right of the page, above the `Download ZIP` button, is a text box that should be labeled `SSH clone URL`. Click the `Copy to clipboard` button to the right of the text box.
 
-## Clone your fork of the repository (on your computer)
+## Clone your fork of the repository (on your computer).
 
+```bash
+$ cd ~/wdi
+$ git clone <paste the url copied above>
+Cloning into '<directory named for repository>'...
+remote: Counting objects: <n>, done.
+remote: Compressing objects: 100% (<n>/<n>), done.
+remote: Total <n> (delta 0), reused <n> (delta 0), pack-reused 0
+Receiving objects: 100% (<n>/<n>), done.
+Checking connectivity... done.
+$ cd <directory named for repository>
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+$
+```
 
+## Edit and save changes.
+
+```bash
+$ subl .
+$
+```
+
+Sublime should open.  Edit quiz.js and save your changes.
+
+## Add, commit, and push your changes.
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified:   quiz.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add quiz.js
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+  modified:   quiz.js
+
+$ git commit -m "Finished quiz."
+[master e1778f5] Finished quiz.
+ 1 file changed, 18 insertions(+), 2 deletions(-)
+ rewrite README.md (100%)
+
+```
 
 
 Step by step for fork, clone, edit, add, commit, push, pull
