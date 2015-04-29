@@ -4,13 +4,17 @@
 
 Follow the link provided to github.com
 
-## Fork the repository (on github.com).
+## On github.com
+
+### Fork the repository.
 
 - Click the link near the top right corner of the repository main page
 - After the fork completes you should be on the forked repository page in your github.com account
 - On the right of the page, above the `Download ZIP` button, is a text box that should be labeled `SSH clone URL`. Click the `Copy to clipboard` button to the right of the text box.
 
-## Clone your fork of the repository (on your computer).
+## On your computer
+
+### Clone your fork of the repository.
 
 ```bash
 $ cd ~/wdi
@@ -61,11 +65,29 @@ Changes to be committed:
   modified:   quiz.js
 
 $ git commit -m "Finished quiz."
-[master e1778f5] Finished quiz.
- 1 file changed, 18 insertions(+), 2 deletions(-)
- rewrite README.md (100%)
-
+[master <commit (hex)>] Finished quiz.
+ 1 file changed, <n> insertions(+), <m> deletions(-)
+ rewrite quiz.js (100%)
+$ git push origin master
+git push origin master
+Counting objects: <n>, done.
+Delta compression using up to <m> threads.
+Compressing objects: 100% (<o>/<o>), done.
+Writing objects: 100% (<p>/<p>), 1.58 KiB | <q> bytes/s, done.
+Total <p> (delta 1), reused 0 (delta 0)
+To git@github.com:<your github.com account>/wdi_1_git_quiz_script.git
+   <old commit>..<commit>  master -> master
+$
 ```
 
+## On github.com
 
-Step by step for fork, clone, edit, add, commit, push, pull
+### Submit pull request
+
+- Click the `Pull Request` link near the right above the list of files in the repository.
+- Click the green `Create pull request` button.
+
+
+## You're done!
+
+If you run into any issues with this, please tell an Instructor or DIR.  Thanks.
