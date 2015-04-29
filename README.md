@@ -4,17 +4,20 @@
 
 Follow the link provided to github.com
 
-## On github.com
+## Fork the repository.
 
-### Fork the repository.
+### On github.com
 
 - Click the link near the top right corner of the repository main page
 - After the fork completes you should be on the forked repository page in your github.com account
-- On the right of the page, above the `Download ZIP` button, is a text box that should be labeled `SSH clone URL`. Click the `Copy to clipboard` button to the right of the text box.
 
-## On your computer
+## Clone your fork of the repository.
 
-### Clone your fork of the repository.
+### On github.com
+
+- On the right of the forked repository page, above the `Download ZIP` button, is a text box that should be labeled `SSH clone URL`. Click the `Copy to clipboard` button to the right of the text box.
+
+### On your computer
 
 ```bash
 $ cd ~/wdi
@@ -35,6 +38,8 @@ $
 
 ## Edit and save changes.
 
+### On your computer
+
 ```bash
 $ subl .
 $
@@ -43,6 +48,8 @@ $
 Sublime should open.  Edit quiz.js and save your changes.
 
 ## Add, commit, and push your changes.
+
+### On your computer
 
 ```bash
 $ git status
@@ -80,10 +87,11 @@ To git@github.com:<your github.com account>/wdi_1_git_quiz_script.git
 $
 ```
 
-## On github.com
+## Submit pull request
 
-### Submit pull request
+### On github.com
 
+- Refresh the forked repository page
 - Click the `Pull Request` link near the right above the list of files in the repository.
 - Click the green `Create pull request` button.
 
