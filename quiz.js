@@ -1,4 +1,4 @@
-//This is not a quiz
+//This is not a quiz, but it actually is a quiz....or is it?
 
 //Write JavaScript to do something
 
