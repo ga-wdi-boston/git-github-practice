@@ -2,7 +2,5 @@
 
 //Write JavaScript to do something
 
-/* your code start here */
-
-/* your code ends here */
+Andrew Edited this and now he will submit it to GitHubbbbb
 
