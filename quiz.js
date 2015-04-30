@@ -2,7 +2,5 @@
 
 //Write JavaScript to do something
 
-/* your code start here */
-
-/* your code ends here */
+I hope I pass this quiz!
 
